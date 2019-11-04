@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-dependencies" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider" charset="UTF-8" />
   </component>
 </project>

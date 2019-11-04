@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/pom.xml" />
         <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer-feign/pom.xml" />
       </list>
     </option>
   </component>

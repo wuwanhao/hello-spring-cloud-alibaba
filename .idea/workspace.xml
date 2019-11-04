@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96b08cfe-a524-487b-b356-ed81d31a7479" name="Default Changelist" comment="" />
+    <list default="true" id="96b08cfe-a524-487b-b356-ed81d31a7479" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer/hello-spring-cloud-alibaba-nacos-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer/hello-spring-cloud-alibaba-nacos-consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer/src/main/java/Controller/NacosConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/consumer/Controller/NacosConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer/src/main/java/NacosConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/consumer/NacosConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer/src/main/java/config/NacosConsumerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/consumer/config/NacosConsumerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/provider/NacosProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/provider/NacosProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/target/classes/com/funtl/hello/spring/cloud/alibaba/nacos/provider/NacosProviderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/target/classes/com/funtl/hello/spring/cloud/alibaba/nacos/provider/NacosProviderApplication.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,18 +28,34 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1T2XF4AosRxf19AD2egWo6UaYnP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer-feign/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\hello-spring-cloud-alibaba\hello-spring-cloud-alibaba-nacos-consumer-feign" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,7 +69,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.NacosConsumerApplication (1)">
+    <configuration name="NacosConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hello-spring-cloud-alibaba-nacos-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="NacosConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hello-spring-cloud-alibaba-nacos-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.funtl.hello.spring.cloud.alibaba.nacos.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.hello.spring.cloud.alibaba.nacos.consumer.NacosConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NacosProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hello-spring-cloud-alibaba-nacos-provider" />
       <extension name="coverage">
@@ -56,6 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NacosConsumerApplication (1)" />
+        <item itemvalue="Spring Boot.NacosConsumerApplication" />
         <item itemvalue="Spring Boot.NacosProviderApplication" />
       </list>
     </recent_temporary>
@@ -74,11 +125,22 @@
       <workItem from="1572698328132" duration="1187000" />
       <workItem from="1572744790548" duration="4591000" />
       <workItem from="1572774633036" duration="2921000" />
-      <workItem from="1572866755728" duration="934000" />
+      <workItem from="1572866755728" duration="3866000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
