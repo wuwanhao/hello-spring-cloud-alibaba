@@ -13,6 +13,6 @@ public class EchoController {
 
     @GetMapping(value = "/echo/{message}")
     public String echo(@PathVariable(value = "message") String message) {
-        return "Hello Nacos Discovery" + message + "Server Port" + port;
+        return "Hello Nacos Discovery " + message + " Server Port = " + port;
     }
 }

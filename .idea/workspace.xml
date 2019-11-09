@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96b08cfe-a524-487b-b356-ed81d31a7479" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-gateway/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-gateway/target/classes/com/funtl/hello/spring/cloud/gateway/GatewayApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer-feign/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/consumer/feign/Controller/NacosProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer-feign/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/consumer/feign/Controller/NacosProviderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer-feign/target/classes/com/funtl/hello/spring/cloud/alibaba/nacos/consumer/feign/Controller/NacosProviderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-consumer-feign/target/classes/com/funtl/hello/spring/cloud/alibaba/nacos/consumer/feign/Controller/NacosProviderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/provider/controller/EchoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/provider/controller/EchoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/target/classes/com/funtl/hello/spring/cloud/alibaba/nacos/provider/controller/EchoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/target/classes/com/funtl/hello/spring/cloud/alibaba/nacos/provider/controller/EchoController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +48,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sentinel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sentinel-master" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -77,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.NacosProviderApplication">
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hello-spring-cloud-gateway" />
       <extension name="coverage">
@@ -160,10 +168,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NacosProviderApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.NacosConsumerFeignApplication" />
         <item itemvalue="Spring Boot.NacosConsumerApplication (1)" />
-        <item itemvalue="Spring Boot.NacosProviderApplication" />
         <item itemvalue="Spring Boot.NacosConsumerApplication" />
       </list>
     </recent_temporary>
@@ -175,12 +183,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d87c6656" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e7a6abf7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d87c6656" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@49028164" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e7a6abf7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@12e4a293" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -205,6 +213,8 @@
       <workItem from="1572866755728" duration="4721000" />
       <workItem from="1573041243928" duration="6989000" />
       <workItem from="1573090253876" duration="1741000" />
+      <workItem from="1573275769795" duration="123000" />
+      <workItem from="1573275917994" duration="7596000" />
     </task>
     <servers />
   </component>
